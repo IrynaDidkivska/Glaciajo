@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glaciajo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-wrapper">
+        <img class="logo" src="./img/logo.svg" alt="Logo" />
+        <h6 class="logo-text">glaciajo</h6>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About Us</li>
+          <li class="nav-item">Flavors</li>
+          <li class="nav-item">Products</li>
+          <li class="nav-item">Pages</li>
+          <li class="nav-item">Blog</li>
+          <li class="nav-item">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-wrapper">
+          <div class="hero-content">
+            <p class="hero-accent">Welcome To Our Ice Cream Shop</p>
+            <h1 class="hero-title">Specializing Strawberry & Chocolate</h1>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              architecto laborum eaquel Deserunt maxime, minus quas molestiae
+              reiciendis. Nihil architecto laborum eaque. Deserunt maxime minus
+              quas.
+            </p>
+            <button class="hero-btn">Order Now</button>
+          </div>
+
+          <picture>
+            <source
+              srcset="./img/hero/hero_1x.webp 1x, ./img/hero/hero@2x.webp 2x"
+              media="(min-width: 1158px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./img/hero/hero@2x.png 2x"
+              media="(min-width: 1158px)"
+              type="image/jpeg"
+            />
+            <img
+              class=""
+              src="./img/hero/hero_1x.jpeg"
+              alt="Cake picture"
+              width="501"
+              height="758"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="popular">
+        <div class="container popular-wrapper">
+          <div class="popular-content left">
+            <div class="popular-content-wrapper">
+              <h2 class="popular-title">Popular items</h2>
+              <p class="popular-text">35 <sup>items</sup></p>
+              <button class="popular-btn">Shop Now</button>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./img/popular/pop_left.webp    1x,
+                  ./img/popular/pop_left@2x.webp 2x
+                "
+                media="(min-width: 1158px)"
+                type="image/webp"
+              />
+              <source
+                srcset="./img/popular/pop_left@2x.png 2x"
+                media="(min-width: 1158px)"
+                type="image/jpeg"
+              />
+              <img
+                class="popular-img"
+                src="./img/popular/pop_left.png"
+                alt="Ice-cream picture"
+                width="240"
+                height="420"
+              />
+            </picture>
+          </div>
+          <div class="popular-content rigth">
+            <div class="popular-content-wrapper">
+              <h2 class="popular-title">Popular items</h2>
+              <p class="popular-text">35 <sup>items</sup></p>
+              <button class="popular-btn">Shop Now</button>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./img/popular/pop_right.webp    1x,
+                  ./img/popular/pop_right@2x.webp 2x
+                "
+                media="(min-width: 1158px)"
+                type="image/webp"
+              />
+              <source
+                srcset="./img/popular/pop_right@2x.png 2x"
+                media="(min-width: 1158px)"
+                type="image/jpeg"
+              />
+              <img
+                c
+                class="popular-img"
+                src="./img/popular/pop_right.png"
+                alt="Ice-cream picture"
+                width="240"
+                height="420"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery-title">Top Flavor's of Our Ice Cream</h2>
+          <p class="gallery-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor <br />
+            incididunt dolore magna aliqua.
+          </p>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/1.webp 1x, ./img/flavors/1@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/1@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/1.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/2.webp 1x, ./img/flavors/2@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/2@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/2.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/3.webp 1x, ./img/flavors/3@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/3@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/3.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/4.webp 1x, ./img/flavors/4@3x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/1@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/4.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/5.webp 1x, ./img/flavors/5@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/5@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/1.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/6.webp 1x, ./img/flavors/6@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/6@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/6.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/7.webp 1x, ./img/flavors/7@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/7@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/7.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+            <li class="gallery-item">
+              <picture>
+                <source
+                  srcset="./img/flavors/8.webp 1x, ./img/flavors/8@2x.webp 2x"
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./img/flavors/8@2x.jpeg 2x"
+                  media="(min-width: 1158px)"
+                  type="image/jpeg"
+                />
+                <img
+                  class=""
+                  src="/img/flavors/8.jpeg"
+                  alt="Cake picture"
+                  width="290"
+                  height="200"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <svg class="contact-icon" width="50" height="50">
+                <use href="./img/letter.svg#letter"></use>
+              </svg>
+              <h4 class="contact-subtitle">Email Us:</h4>
+              <p class="contact-items-data">
+                hello@example.com <br />info@example.com
+              </p>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" width="50" height="50">
+                <use href="./img/phone.svg#phone"></use>
+              </svg>
+              <h4 class="contact-subtitle">Call Us:</h4>
+              <p class="contact-items-data">+123-456-789 <br />+153-567-984</p>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" width="50" height="50">
+                <use href="./img/location.svg#location"></use>
+              </svg>
+              <h4 class="contact-subtitle">Address:</h4>
+              <p class="contact-items-data">
+                Flatiron Building, 175 5th Ave, New York, <br />NY 10010, USA
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="logo-wrapper">
+          <img class="logo" src="./img/logo.svg" alt="Logo" />
+          <h6 class="logo-text">glaciajo</h6>
+        </div>
+        <p>&copy; 2023 All Rights Reserved. Privacy Policy</p>
+      </div>
+    </footer>
+  </body>
+</html>
